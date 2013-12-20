@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<MenuItems>
+  <RootItem Name="btnExport" Text="Exportar" ImageUrl="~/Images/CRUD/ExportToExcel32.png"   />
+  <RootItem Name="btnLimpiar" Text="Limpiar" ImageUrl="~/Images/CRUD/LookupAddress_32.png"  />
+</MenuItems>

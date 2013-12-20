@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AFE94308-9306-4F0D-AFDA-27D3628B23DC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PautasPublicidad.DTO</RootNamespace>
+    <AssemblyName>PautasPublicidad.DTO</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DTO\Parametrizacion\EmpresasDTO.cs" />
+    <Compile Include="DTO\Proceso\CertificadoSKUDTO.cs" />
+    <Compile Include="DTOHelper.cs" />
+    <Compile Include="DTO\Proceso\CertificadoDetDTO.cs" />
+    <Compile Include="DTO\Proceso\CertificadoCabDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\AnunInternosDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\AvisosDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\AvisosIdAtenDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\CostosDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\CostosFrecuenciaDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\CostosFrecuenciaVersionDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\CostosProveedorDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\CostosProveedorVersionDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\CostoVersionDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\EspacioContDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\FormAvisoDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\FrecuenciaDetDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\FrecuenciaDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\GrupoMediosPubDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\IdentAtencionDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\IntervaloDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\MediosPubDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\MonedasDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\PiezasArteDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\PiezasArteSKUDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\ProveedorDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\SetUpDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\SKUDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\sysdiagramsDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\TecnoSoporteDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\TipoCambioDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\TipoEspacioDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\TipoMediosPubDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\TipoPiezaDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\OrigenDTO.cs" />
+    <Compile Include="DTO\Proceso\EstimadoCabDTO.cs" />
+    <Compile Include="DTO\Proceso\EstimadoCabVersionDTO.cs" />
+    <Compile Include="DTO\Proceso\EstimadoDetDTO.cs" />
+    <Compile Include="DTO\Proceso\EstimadoDetVersionDTO.cs" />
+    <Compile Include="DTO\Proceso\EstimadoSKUDTO.cs" />
+    <Compile Include="DTO\Proceso\EstimadoSKUVersionDTO.cs" />
+    <Compile Include="DTO\Proceso\OrdenadoCabDTO.cs" />
+    <Compile Include="DTO\Proceso\OrdenadoDetDTO.cs" />
+    <Compile Include="DTO\Proceso\OrdenadoSKUDTO.cs" />
+    <Compile Include="DTO\Parametrizacion\EntornoDTO.cs" />
+    <Compile Include="EmpresaDTO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SortFieldAttribute.cs" />
+    <Compile Include="TablaBase.cs" />
+    <Compile Include="DTO\Parametrizacion\UsuariosDTO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DTODiagram.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

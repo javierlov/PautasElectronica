@@ -1,0 +1,43 @@
+﻿body
+{
+    background-color: #E9EDF1; /*Gris claro*/
+    min-width: 800px;
+    /*height: 600px;*/
+    border: 1px solid black;
+}
+
+.header
+{
+    border-bottom: 1px  solid black;
+    background-color:White;
+    background-image:url('~/../Images/MastheadBig.jpg');
+    background-repeat:repeat-y;
+    background-position:right top;
+    font-family: Arial;
+    font-size:small;
+    color:Black;
+}
+
+.headerMedium
+{
+    border-bottom: 1px  solid black;
+    background-color:White;
+    background-image:url('~/../Images/MastheadMedium.jpg');
+    background-repeat:repeat-y;
+    background-position:right top;
+    font-family: Arial;
+    font-size:small;
+    color:Black;
+}
+
+.main
+{
+    font-family: Arial;
+    font-size: smaller;
+    background-color: #F6F8FA; /*Gris MAS claro*/
+}
+
+.menu
+{ 
+   
+}

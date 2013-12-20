@@ -1,0 +1,144 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Accendo.master.cs" Inherits="PautasPublicidad.Web.Accendo" %>
+
+<%@ Register Assembly="DevExpress.Web.v11.2, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web.ASPxSplitter" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v11.2, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web.ASPxNavBar" TagPrefix="dx1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Styles/Accendo.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div></div>
+    <form id="form1" runat="server">
+    <table width="100%" height="50px" class="headerMedium">
+        <tr>
+            <td align="left">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="../Images/Accendo.png" 
+                                height="30px"></img>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td align="right" style="color: Blue;">
+                <asp:LinkButton ID="lnkCerrarSesion" runat="server" ForeColor="Blue" 
+                    onclick="lnkCerrarSesion_Click">Cerrar Sesión</asp:LinkButton> <asp:Label ID="lblUsuario" runat="server" Font-Bold="True" Text="Juan J. Perez"></asp:Label><br />
+                <asp:Label ID="lblEmpresa" runat="server" Text="Sprayette S.A." 
+                    Font-Bold="True"></asp:Label>
+                
+            </td>
+            <td align="center" width="50px">
+            <img src="../Images/Clients/sprayette.jpg" 
+                                height="45px"></img>
+            </td>
+        </tr>
+    </table>
+    <dx:ASPxSplitter ID="ASPxSplitter1" runat="server" Height="690px" CssFilePath="~/App_Themes/Office2010Silver/{0}/styles.css"
+        CssPostfix="Office2010Silver">
+        <Panes>
+            <dx:SplitterPane Size="20%">
+                <PaneStyle BackColor="#E9EDF1">
+                </PaneStyle>
+                <ContentCollection>
+                    <dx:SplitterContentControl runat="server" SupportsDisabledAttribute="True">
+                        <dx1:ASPxNavBar ID="ASPxNavBar1" runat="server" AutoCollapse="True" CssFilePath="~/App_Themes/Office2010Silver/{0}/styles.css"
+                            CssPostfix="Office2010Silver" SpriteCssFilePath="~/App_Themes/Office2010Silver/{0}/sprite.css"
+                            Width="100%" OnItemClick="ASPxNavBar1_ItemClick">
+                            <Groups>
+                                <dx1:NavBarGroup Text="Parametrización" Name="Parametrizacion">
+                                    <Items>
+                                        <dx1:NavBarItem NavigateUrl="~/Forms/AbmGenerico.aspx?EntityName=MediosPub" Text="Anunciantes Internos">
+                                            <Image Url="~/Images/Icons/entity16_1036.png">
+                                            </Image>
+                                        </dx1:NavBarItem>
+                                        <dx1:NavBarItem NavigateUrl="~/Forms/AbmGenerico.aspx?EntityName=TipoMediosPub" Text="Avisos">
+                                            <Image Url="~/Images/Icons/16_activate.gif">
+                                            </Image>
+                                        </dx1:NavBarItem>
+                                        <dx1:NavBarItem NavigateUrl="~/Forms/AbmGenerico.aspx?EntityName=TecnoSoporte" Text="Costos">
+                                            <Image Url="~/Images/Icons/16_alert.gif">
+                                            </Image>
+                                        </dx1:NavBarItem>
+                                        <dx1:NavBarItem NavigateUrl="~/Forms/AbmGenerico.aspx?EntityName=GrupoMediosPub" Text="Espacio de Contenidos">
+                                            <Image Url="~/Images/Icons/16_approveemailofqueue.png">
+                                            </Image>
+                                        </dx1:NavBarItem>
+                                        <dx1:NavBarItem NavigateUrl="#" Text="Formato de Aviso">
+                                            <Image Url="~/Images/Icons/16_back.gif">
+                                            </Image>
+                                        </dx1:NavBarItem>
+                                        <dx1:NavBarItem NavigateUrl= Text="Frecuencia">
+                                            <Image Url="~/Images/Icons/16_cancel.png">
+                                            </Image>
+                                        </dx1:NavBarItem>
+                                        <dx1:NavBarItem NavigateUrl="~/Forms/AbmGenerico.aspx?EntityName=Empresas" Text="Empresa">
+                                        </dx1:NavBarItem>
+                                    </Items>
+                                </dx1:NavBarGroup>
+
+                                <dx1:NavBarGroup Text="Proceso" Name="Proceso" Visible="True" Expanded="False">
+                                    <Items>
+                                        <dx1:NavBarItem NavigateUrl="~/Forms/Ordenado.aspx" Text="Ordenado">
+                                            <Image Url="~/Images/Icons/16_schedule.gif">
+                                            </Image>
+                                        </dx1:NavBarItem>
+                                        <dx1:NavBarItem NavigateUrl="~/Forms/OrdenadoCierre.aspx" Text="Cierre Ordenado">
+                                            <Image Url="~/Images/Icons/16_L_check.gif">
+                                            </Image>
+                                        </dx1:NavBarItem>
+                                        <dx1:NavBarItem NavigateUrl="~/Forms/EstimadoBusqueda.aspx" Text="Anulación y Reemplazo">
+                                            <Image Url="~/Images/Icons/16_cancelsystemjob.gif">
+                                            </Image>
+                                        </dx1:NavBarItem>
+                                        <dx1:NavBarItem NavigateUrl="~/Forms/EstimadoCierre.aspx" Text="Cierre Estimado">
+                                            <Image Url="~/Images/Icons/16_cancelsystemjob.gif">
+                                            </Image>
+                                        </dx1:NavBarItem>
+                                        <dx1:NavBarItem NavigateUrl="~/Forms/Certificado.aspx" Text="Certificado">
+                                            <Image Url="~/Images/Icons/16_L_check.gif">
+                                            </Image>
+                                        </dx1:NavBarItem>
+                                        <dx1:NavBarItem NavigateUrl="~/Forms/PPMBusqueda.aspx" Text="Planilla de Pautas Mensual">
+                                            <Image Url="~/Images/Icons/16_L_check.gif">
+                                            </Image>
+                                        </dx1:NavBarItem>
+                                    </Items>
+                                </dx1:NavBarGroup>
+                            </Groups>
+                            <LoadingPanelImage Url="~/App_Themes/Office2010Silver/Web/Loading.gif">
+                            </LoadingPanelImage>
+                            <LoadingPanelStyle ImageSpacing="5px">
+                            </LoadingPanelStyle>
+                        </dx1:ASPxNavBar>
+                    </dx:SplitterContentControl>
+                </ContentCollection>
+            </dx:SplitterPane>
+            <dx:SplitterPane MinSize="400px">
+                <PaneStyle BackColor="#E9EDF1">
+                </PaneStyle>
+                <ContentCollection>
+                    <dx:SplitterContentControl runat="server" SupportsDisabledAttribute="True">
+                    
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                    
+                    </dx:SplitterContentControl>
+                </ContentCollection>
+            </dx:SplitterPane>
+        </Panes>
+        <Styles CssFilePath="~/App_Themes/Office2010Silver/{0}/styles.css" CssPostfix="Office2010Silver">
+        </Styles>
+        <Images SpriteCssFilePath="~/App_Themes/Office2010Silver/{0}/sprite.css">
+        </Images>
+    </dx:ASPxSplitter>
+    </form>
+    </div>
+</body>
+</html>

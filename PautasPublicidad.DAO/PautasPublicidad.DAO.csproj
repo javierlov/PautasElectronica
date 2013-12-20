@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6AA5CE20-3573-4A0B-800F-F6421EA92D92}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PautasPublicidad.DAO</RootNamespace>
+    <AssemblyName>PautasPublicidad.DAO</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAOBase.cs" />
+    <Compile Include="DAOFactory.cs" />
+    <Compile Include="DAOHelper.cs" />
+    <Compile Include="DAO\Parametrizacion\AnunInternosDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\AvisosDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\AvisosIdAtenDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\CostosDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\CostosFrecuenciaDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\CostosFrecuenciaVersionDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\CostosProveedorDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\CostosProveedorVersionDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\CostoVersionDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\EmpresasDAO.cs" />
+    <Compile Include="DAO\Parametrizacion\EspacioContDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\FormAvisoDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\FrecuenciaDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\FrecuenciaDetDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\GrupoMediosPubDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\IdentAtencionDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\IntervaloDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\MediosPubDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\MonedasDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\PiezasArteDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\PiezasArteSKUDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\ProveedorDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\SetUpDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\SKUDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\sysdiagramsDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\TecnoSoporteDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\TipoCambioDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\TipoEspacioDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\TipoMediosPubDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\TipoPiezaDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\Parametrizacion\OrigenDAO.cs" />
+    <Compile Include="DAO\Proceso\CertificadoCabDAO.cs" />
+    <Compile Include="DAO\Proceso\CertificadoDetDAO.cs" />
+    <Compile Include="DAO\Proceso\CertificadoSKUDAO.cs" />
+    <Compile Include="DAO\Proceso\EstimadoCabDAO.cs" />
+    <Compile Include="DAO\Proceso\EstimadoCabVersionDAO.cs" />
+    <Compile Include="DAO\Proceso\EstimadoDetDAO.cs" />
+    <Compile Include="DAO\Proceso\EstimadoDetVersionDAO.cs" />
+    <Compile Include="DAO\Proceso\EstimadoSKUDAO.cs" />
+    <Compile Include="DAO\Proceso\EstimadoSKUVersionDAO.cs" />
+    <Compile Include="DAO\Proceso\OrdenadoCabDAO.cs" />
+    <Compile Include="DAO\Proceso\OrdenadoDetDAO.cs" />
+    <Compile Include="DAO\Proceso\OrdenadoSKUDAO.cs" />
+    <Compile Include="DAO\Parametrizacion\EntornoDAO.cs" />
+    <Compile Include="DAO\Parametrizacion\EmpresaDAO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DAO\Parametrizacion\UsuariosDAO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PautasPublicidad.DTO\PautasPublicidad.DTO.csproj">
+      <Project>{AFE94308-9306-4F0D-AFDA-27D3628B23DC}</Project>
+      <Name>PautasPublicidad.DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DAODiagram.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

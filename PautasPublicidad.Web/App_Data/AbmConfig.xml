@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Entities>
+
+  <!--// ABMS Genericos (usan AbmGenerico.aspx) //-->
+  <Entity EntityName="SetUp" Title="Parametrización">
+    <Control Title ="NumPauta" FieldName="NumPauta" ControlType="SpinEdit"></Control>
+    <Control Title ="Código artículo En Orden de Compra" FieldName="InventIDOC" ControlType="TextBox"></Control>
+    <Control Title ="Sector" FieldName="Sector" ControlType="TextBox"></Control>
+    <Control Title ="Porcentaje IVA" FieldName="PorcIVA" ControlType="SpinEdit"></Control>
+    <Control Title ="Fecha Cierre Ordenado" FieldName="AnoMesCierreOrd" ControlType="SpinEdit"></Control>
+    <Control Title ="Fecha Cierre Estimado" FieldName="AnoMesCierreEst" ControlType="SpinEdit"></Control>
+  </Entity>
+
+  <Entity EntityName="Empresa" Title="Empresa">
+    <Control Title ="Código de Empresa" FieldName="IdentifEmpresa" ControlType="TextBox"></Control>
+    <Control Title ="Nombre" FieldName="Name" ControlType="TextBox"></Control>
+    <Control Title ="Leyenda Publicitaria" FieldName="Leyenda" ControlType="TextBox"></Control>
+    <Control Title ="Archivo con Logo" FieldName="Logo" ControlType="TextBox"></Control>
+  </Entity>
+
+  <Entity EntityName="MediosPub" Title="Medios Publicitarios">
+    <Control Title ="Medio Publicitario" FieldName="IdentifMedio" ControlType="TextBox"></Control>
+    <Control Title ="Descripción" FieldName="Name" ControlType="TextBox"></Control>
+    <Control Title ="Grupo de Medios" FieldName="IdentifGrupo" ControlType="ComboBox" EntityName="GrupoMediosPub"></Control>
+    <Control Title ="Tipo de Medios" FieldName="IdentifTipo" ControlType="ComboBox" EntityName="TipoMediosPub"></Control>
+  </Entity>
+
+  <Entity EntityName="GrupoMediosPub" Title="Grupo de Medios Publicitarios">
+    <Control Title ="Grupo" FieldName="IdentifGrupo" ControlType="TextBox"></Control>
+    <Control Title ="Nombre" FieldName="Name" ControlType="TextBox"></Control>
+  </Entity>
+
+  <Entity EntityName="TecnoSoporte" Title="Tecnología de Soporte">
+    <Control Title ="Tecnología de Soporte" FieldName="IdentifTecno" ControlType="TextBox"></Control>
+    <Control Title ="Descripción" FieldName="Name" ControlType="TextBox"></Control>
+  </Entity>
+
+  <Entity EntityName="TipoMediosPub" Title="Tipos de Medios Publicitarios">
+    <Control Title ="Tipo de Medios Publicitarios" FieldName="IdentifTipo" ControlType="TextBox"></Control>
+    <Control Title ="Descripción" FieldName="Name" ControlType="TextBox"></Control>
+    <Control Title ="Tecnología de Soporte" FieldName="IdentifTecno" ControlType="ComboBox" EntityName="TecnoSoporte"></Control>
+  </Entity>
+
+  <Entity EntityName="Intervalo" Title="Intervalo">
+    <Control Title ="Intervalo" FieldName="IdentifIntervalo" ControlType="TextBox"></Control>
+    <Control Title ="Descripción" FieldName="Name" ControlType="TextBox"></Control>
+    <Control Title ="Cantidad Minutos" FieldName="CantMinutos" ControlType="SpinEdit"></Control>
+  </Entity>
+
+  <Entity EntityName="SKU" Title="SKU">
+    <Control Title ="SKU" FieldName="IdentifSKU" ControlType="TextBox"></Control>
+    <Control Title ="Descripción" FieldName="Name" ControlType="TextBox"></Control>
+    <Control Title ="Activo" FieldName="Activo" ControlType="CheckBox"></Control>
+  </Entity>
+
+  <Entity EntityName="FormAviso" Title="Formato de Aviso">
+    <Control Title ="Formato de Aviso" FieldName="IdentifFormAviso" ControlType="TextBox"></Control>
+    <Control Title ="Descripción" FieldName="Name" ControlType="TextBox"></Control>
+  </Entity>
+
+  <Entity EntityName="Proveedor" Title="Proveedor">
+    <Control Title ="Proveedor" FieldName="IdentifProv" ControlType="TextBox"></Control>
+    <Control Title ="Descripción" FieldName="Name" ControlType="TextBox"></Control>
+  </Entity>
+
+  <Entity EntityName="TipoEspacio" Title="Tipo de Espacio de Contenidos">
+    <Control Title ="Tipo de Espacio" FieldName="IdentifTipoEsp" ControlType="TextBox"></Control>
+    <Control Title ="Descripción" FieldName="Name" ControlType="TextBox"></Control>
+    <Control Title ="Frecuencia en Espacio" FieldName="Frecuencia" ControlType="CheckBox"></Control>
+    <Control Title ="Hora en Espacio" FieldName="Hora" ControlType="CheckBox"></Control>
+    <Control Title ="Intervalo en Espacio" FieldName="Intervalo" ControlType="CheckBox"></Control>
+  </Entity>
+
+  <Entity EntityName="TipoPieza" Title="Tipo de Piezas de Arte">
+    <Control Title ="Tipo de Piezas" FieldName="IdentifTipoPieza" ControlType="TextBox"></Control>
+    <Control Title ="Descripción" FieldName="Name" ControlType="TextBox"></Control>
+    <Control Title ="Duración en Pieza" FieldName="Duracion" ControlType="CheckBox"></Control>
+  </Entity>
+
+  <Entity EntityName="AnunInternos" Title="Anunciantes Internos">
+    <Control Title ="Anunciante Interno" FieldName="IdentifAnun" ControlType="TextBox"></Control>
+    <Control Title ="Descripción" FieldName="Name" ControlType="TextBox"></Control>
+    <Control Title ="Entorno" FieldName="Entorno" ControlType="ComboBox" EntityName="Entorno"></Control>
+  </Entity>
+
+  <Entity EntityName="Origen" Title="Origen">
+    <Control Title ="Origen Certificado" FieldName="IdentifOrigen" ControlType="TextBox"></Control>
+    <Control Title ="Descripción" FieldName="Name" ControlType="TextBox"></Control>
+  </Entity>
+
+  <Entity EntityName="Entorno" Title="Entorno">
+    <Control Title ="Entorno" FieldName="IdentifEntorno" ControlType="TextBox" MaxLenght="15"></Control>
+    <Control Title ="Descripción" FieldName="Name" ControlType="TextBox"></Control>
+  </Entity>
+
+  <!--// ABMS CUSTOM (con AbmUrl) //-->
+  <Entity EntityName="IdentAtencion" Title="Identificadores de Atención" AbmUrl="~/Forms/IdentificadoresAtencion.aspx">
+  </Entity>
+  
+  <Entity EntityName="Frecuencia" Title="Frecuencia" AbmUrl="~/Forms/Frecuencia.aspx">
+  </Entity>
+
+  <Entity EntityName="EspacioCont" Title="Espacio de Contenidos" AbmUrl="~/Forms/EspacioContenidos.aspx">
+    <Control Title ="Espacio Contenido" FieldName="IdentifEspacio" ControlType="TextBox"></Control>
+    <Control Title ="Descripción" FieldName="Name" ControlType="TextBox"></Control>
+    <Control Title ="Medio Publicitario" FieldName="IdentifMedio" ControlType="ComboBox" EntityName="MediosPub"></Control>
+    <Control Title ="Tipo de espacio " FieldName="IdentifTipoEsp" ControlType="ComboBox" EntityName="TipoEspacio"></Control>
+    <Control Title ="Frecuencia Semanal" FieldName="IdentifFrecuencia" ControlType="ComboBox" EntityName="Frecuencia"></Control>
+    <Control Title ="Hora de Inicio" FieldName="HoraInicio" ControlType="TextBox"></Control>
+    <Control Title ="Hora de Fin" FieldName="HoraFin" ControlType="TextBox"></Control>
+    <Control Title ="Intervalo de las Salidas" FieldName="IdentifIntervalo" ControlType="ComboBox" EntityName="Intervalo"></Control>
+    <Control Title ="Formato OP" FieldName="FormatoOP" ControlType="RadioButtonList">
+      <Items>
+        <Item Value="GRAFICA" Name="Gráfica" />
+        <Item Value="PNT_SALIDA" Name="PNT Salida" />
+        <Item Value="PNT_PRODUCTO" Name="PNT Producto" />
+        <Item Value="CALENDARIO_DESCRIPTIVO" Name="Calendario Descriptivo" />
+        <Item Value="CALENDARIO_NUMERICO" Name="Calendario Numérico" />
+        <Item Value="NINGUNO" Name="Ninguno" />
+      </Items>
+    </Control>
+  </Entity>
+  
+  <Entity EntityName="Monedas" Title="Monedas" AbmUrl="~/Forms/Monedas.aspx">
+    <Control Title ="Moneda" FieldName="IdentifMon" ControlType="TextBox"></Control>
+    <Control Title ="Descripción" FieldName="Name" ControlType="TextBox"></Control>
+  </Entity>
+
+  <Entity EntityName="PiezasArte" Title="Piezas de Arte" AbmUrl="~/Forms/PiezasArte.aspx">
+    <Control Title ="Pieza de Arte" FieldName="IdentifPieza" ControlType="TextBox"></Control>
+    <Control Title ="Descripción" FieldName="Name" ControlType="TextBox"></Control>
+    <Control Title ="Anunciante Interno" FieldName="IdentifAnun" ControlType="ComboBox" EntityName="AnunInternos"></Control>
+    <Control Title ="Tipo de Pieza" FieldName="IdentifTipoPieza" ControlType="ComboBox" EntityName="TipoPieza"></Control>
+    <Control Title ="Duración" FieldName="Duracion" ControlType="SpinEdit"></Control>
+    <Control Title ="Extension" FieldName="Extension" ControlType="TextBox"></Control>
+    <Control Title ="N° Ord. Prod." FieldName="OrdenProd" ControlType="TextBox"></Control>
+    <Control Title ="VigDesde" FieldName="VigDesde" ControlType="DateEdit"></Control>
+    <Control Title ="VigHasta" FieldName="VigHasta" ControlType="DateEdit"></Control>
+  </Entity>
+
+  <Entity EntityName="Avisos" Title="Avisos" AbmUrl="~/Forms/Avisos.aspx">
+    <Control Title ="Aviso" FieldName="IdentifAviso" ControlType="TextBox"></Control>
+    <Control Title ="Descripción" FieldName="Name" ControlType="TextBox"></Control>
+    <Control Title ="Espacio de Contenido" FieldName="IdentifEspacio" ControlType="ComboBox" EntityName="EspacioCont"></Control>
+    <Control Title ="Formato del Aviso" FieldName="IdentifFormAviso" ControlType="ComboBox" EntityName="FormAviso"></Control>
+    <Control Title ="Pieza de Arte" FieldName="IdentifPieza" ControlType="ComboBox" EntityName="PiezasArte"></Control>
+    <Control Title ="Duración" FieldName="Duracion" ControlType="SpinEdit"></Control>
+    <Control Title ="Etiqueta de Producto Externa" FieldName="EtiquetaProd" ControlType="TextBox"></Control>
+    <Control Title ="Zócalo" FieldName="Zocalo" ControlType="TextBox"></Control>
+    <Control Title ="Nro. Ingesta" FieldName="NroIngesta" ControlType="TextBox"></Control>
+    <Control Title ="VigDesde" FieldName="VigDesde" ControlType="DateEdit"></Control>
+    <Control Title ="VigHasta" FieldName="VigHasta" ControlType="DateEdit"></Control>
+  </Entity>
+
+  <Entity EntityName="Costos" Title="Costos" AbmUrl="~/Forms/Costos.aspx">
+    <Control Title ="Espacio de Contenido" FieldName="IdentifEspacio" ControlType="ComboBox" EntityName="EspacioCont"></Control>
+    <Control Title ="VigDesde" FieldName="VigDesde" ControlType="DateEdit"></Control>
+    <Control Title ="VigHasta" FieldName="VigHasta" ControlType="DateEdit"></Control>
+    <Control Title ="Tipo de Frecuencia" FieldName="Frecuencia" ControlType="RadioButtonList">
+      <Items>
+        <Item Value="TODO" Name="Todo" />
+        <Item Value="DETALLADO" Name="Detallado" />
+      </Items>
+    </Control>
+    <Control Title ="Frecuencia" FieldName="IdentifFrecuencia" ControlType="ComboBox" EntityName="Frecuencia"></Control>
+    <Control Title ="Tipo de Horario" FieldName="Horario" ControlType="RadioButtonList">
+      <Items>
+        <Item Value="TODO" Name="Todo" />
+        <Item Value="DETALLADO" Name="Detallado" />
+      </Items>
+    </Control>
+    <Control Title ="Ultima Versión confirmada" FieldName="Version" ControlType="TextBox"></Control>
+    <Control Title ="Confirmada por" FieldName="Confirmado" ControlType="SpinEdit"></Control>
+    <Control Title ="Fecha Confirmación" FieldName="FecConfirmado" ControlType="DateEdit"></Control>
+ </Entity>
+  
+</Entities>

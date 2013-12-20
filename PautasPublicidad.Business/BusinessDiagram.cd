@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PautasPublicidad.Business.Avisos" Collapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAQAAAAAAAAAAEAAAAAQgAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\Parametrizacion\Avisos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Business.Costos" Collapsed="true">
+    <Position X="16" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAEAAAAAQoGAAEIAAAAAgAAMAAEAACAAEAwAAAAA=</HashCode>
+      <FileName>Managers\Parametrizacion\Costos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Business.MediosPublicitarios" Collapsed="true">
+    <Position X="17.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IARgAAEAAAAAAAQAEEEBAIAgBAUAAEAAAAACAAAAAAA=</HashCode>
+      <FileName>Managers\Parametrizacion\MediosPublicitarios.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Business.PiezasArte" Collapsed="true">
+    <Position X="16" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAAAAAAAAEAAAAAQgAAEAAEAAAAAAAAAAAAg=</HashCode>
+      <FileName>Managers\Parametrizacion\PiezasArte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Business.TecnologiasSoporte" Collapsed="true">
+    <Position X="17.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAAAAAAAAEAAAAAAgAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\Parametrizacion\TecnologiasSoporte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Business.CRUDHelper" Collapsed="true">
+    <Position X="17.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAEAAAAAAgAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>CRUDHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Business.BusinessMapper" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAEAACAIAAAAAAAAAAAAAAACAAAAAAAFI=</HashCode>
+      <FileName>BusinessMapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Business.MapInfo" Collapsed="true">
+    <Position X="16" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAQQAAAIAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessMapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Business.AbmConfigXMLException" Collapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessMapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Business.Conexion" Collapsed="true">
+    <Position X="21.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAQBAAAAAA=</HashCode>
+      <FileName>Conexion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Business.Estimado">
+    <Position X="7.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAACAAAABAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\Estimado.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Cabecera" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="SKUs" />
+      <Property Name="Lineas" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="PautasPublicidad.Business.Ordenado">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAFAAgABAAACAAAAACAAAABAAACAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Entidades\Ordenado.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Cabecera" />
+      <Property Name="Costo" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="SKUs" />
+      <Property Name="Lineas" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="PautasPublicidad.Business.Frecuencias" Collapsed="true">
+    <Position X="21.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAAAAAAAAAAAAAAQAAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\Parametrizacion\Frecuencias.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Business.Monedas" Collapsed="true">
+    <Position X="19.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAAAAAAAAEAAAAAQhAAEAEEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\Parametrizacion\Monedas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Business.Estimados" Collapsed="true">
+    <Position X="19.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABgABAgAADQAAJAGAAAAgQggAgABEAAAAAQAAAAgAA=</HashCode>
+      <FileName>Managers\Proceso\Estimados.cs</FileName>
+      <NewMemberFileName>Managers\Proceso\Ordenados.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.OrdenadoSKUDTO">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PautasPublicidad.DTO.EstimadoSKUDTO">
+    <Position X="7.5" Y="12" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PautasPublicidad.DTO.EstimadoDetDTO">
+    <Position X="10.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PautasPublicidad.DTO.OrdenadoDetDTO">
+    <Position X="6.5" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PautasPublicidad.DTO.EstimadoCabDTO">
+    <Position X="13.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PautasPublicidad.DTO.OrdenadoCabDTO">
+    <Position X="3.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PautasPublicidad.Business.Ordenados" Collapsed="true">
+    <Position X="21.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAgACAAACIAGABABAQgAAkCBEAAAAAQAAAAgBA=</HashCode>
+      <FileName>Managers\Proceso\Ordenados.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.CostosDTO">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

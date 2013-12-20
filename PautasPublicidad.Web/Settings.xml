@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+
+  <ConnectionString>Data Source=.;Initial Catalog=Publicidad;Integrated Security=True</ConnectionString>
+
+</Settings>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+
+  <ConnectionString>Data Source=.;Initial Catalog=Publicidad;Integrated Security=True</ConnectionString>
+  <!--<ConnectionString>Data Source=.;Initial Catalog=publicidad_test;Integrated Security=True</ConnectionString>-->
+  <MapperInfoXmlPath>C:\Proyectos\Sprayette\PautasPublicidad\PautasPublicidad.Web\App_Data\MapperInfo.xml</MapperInfoXmlPath>
+  <AbmConfigXmlPath>C:\Proyectos\Sprayette\PautasPublicidad\PautasPublicidad.Web\App_Data\AbmConfig.xml</AbmConfigXmlPath>
+  
+</Settings>

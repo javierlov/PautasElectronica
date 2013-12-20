@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PautasPublicidad.Web", "PautasPublicidad.Web\PautasPublicidad.Web.csproj", "{BF7CAE08-112E-4485-8D12-E5D2A6C4D74B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PautasPublicidad.Business", "PautasPublicidad.Business\PautasPublicidad.Business.csproj", "{03215DDE-D556-45F9-869E-E45C2F6B5D08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PautasPublicidad.DAO", "PautasPublicidad.DAO\PautasPublicidad.DAO.csproj", "{6AA5CE20-3573-4A0B-800F-F6421EA92D92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PautasPublicidad.DTO", "PautasPublicidad.DTO\PautasPublicidad.DTO.csproj", "{AFE94308-9306-4F0D-AFDA-27D3628B23DC}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://acc13:8080/tfs/accendo
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PautasPublicidad.Business\\PautasPublicidad.Business.csproj
+		SccProjectName1 = PautasPublicidad.Business
+		SccLocalPath1 = PautasPublicidad.Business
+		SccProjectUniqueName2 = PautasPublicidad.DAO\\PautasPublicidad.DAO.csproj
+		SccProjectName2 = PautasPublicidad.DAO
+		SccLocalPath2 = PautasPublicidad.DAO
+		SccProjectUniqueName3 = PautasPublicidad.DTO\\PautasPublicidad.DTO.csproj
+		SccProjectName3 = PautasPublicidad.DTO
+		SccLocalPath3 = PautasPublicidad.DTO
+		SccProjectUniqueName4 = PautasPublicidad.Web\\PautasPublicidad.Web.csproj
+		SccProjectName4 = PautasPublicidad.Web
+		SccLocalPath4 = PautasPublicidad.Web
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF7CAE08-112E-4485-8D12-E5D2A6C4D74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7CAE08-112E-4485-8D12-E5D2A6C4D74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7CAE08-112E-4485-8D12-E5D2A6C4D74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7CAE08-112E-4485-8D12-E5D2A6C4D74B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03215DDE-D556-45F9-869E-E45C2F6B5D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03215DDE-D556-45F9-869E-E45C2F6B5D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03215DDE-D556-45F9-869E-E45C2F6B5D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03215DDE-D556-45F9-869E-E45C2F6B5D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA5CE20-3573-4A0B-800F-F6421EA92D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA5CE20-3573-4A0B-800F-F6421EA92D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA5CE20-3573-4A0B-800F-F6421EA92D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA5CE20-3573-4A0B-800F-F6421EA92D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE94308-9306-4F0D-AFDA-27D3628B23DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE94308-9306-4F0D-AFDA-27D3628B23DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE94308-9306-4F0D-AFDA-27D3628B23DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE94308-9306-4F0D-AFDA-27D3628B23DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

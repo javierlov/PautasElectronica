@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BF7CAE08-112E-4485-8D12-E5D2A6C4D74B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PautasPublicidad.Web</RootNamespace>
+    <AssemblyName>PautasPublicidad.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>CODE_ANALYSIS;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>OnlyFilesToRunTheApp</FilesToIncludeForPublish>
+    <PackageAsSingleFile>false</PackageAsSingleFile>
+    <DesktopBuildPackageLocation>..\..\..\..\inetpub\wwwroot\PautasPublicidad</DesktopBuildPackageLocation>
+    <ExcludeApp_Data>true</ExcludeApp_Data>
+    <ExcludeGeneratedDebugSymbol>false</ExcludeGeneratedDebugSymbol>
+    <PublishDatabases>false</PublishDatabases>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML">
+      <HintPath>..\..\Users\Administrator\Downloads\ClosedXML_v0.69.1.0\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v11.2, Version=11.2.111.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\DevExpress 2011.2\Components\Bin\Framework\DevExpress.Data.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v11.2.Core, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v11.2.Core, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\DevExpress 2011.2\Components\Bin\Framework\DevExpress.Printing.v11.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v11.2, Version=11.2.111.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\DevExpress 2011.2\Components\Bin\Framework\DevExpress.Utils.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxEditors.v11.2, Version=11.2.111.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\DevExpress 2011.2\Components\Bin\Framework\DevExpress.Web.ASPxEditors.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxGridView.v11.2, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxGridView.v11.2.Export, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxPivotGrid.v11.2, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxPivotGrid.v11.2.Export, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Web.v11.2, Version=11.2.111.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\DevExpress 2011.2\Components\Bin\Framework\DevExpress.Web.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v11.2, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v11.2, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v11.2, Version=11.2.111.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\DevExpress 2011.2\Components\Bin\Framework\DevExpress.XtraPrinting.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.0.5022.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Program Files\Open XML SDK\V2.0\lib\DocumentFormat.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Windows.Design.Extensibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PublicAssemblies\Microsoft.Windows.Design.Extensibility.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\MenuItemsOrdenadoDetalle.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\MenuItemsOrdenado.xml" />
+    <Content Include="App_Data\MenuItemsCosto.xml" />
+    <Content Include="App_Data\MenuItemsPlanillas.xml" />
+    <Content Include="Forms\AbmGenerico.aspx" />
+    <Content Include="App_Data\AbmConfig.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\MapperInfo.xml" />
+    <Content Include="App_Data\MenuItems.xml" />
+    <Content Include="Controls\ucABM.ascx" />
+    <Content Include="Controls\ucComboBox.ascx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Forms\Avisos.aspx" />
+    <Content Include="Forms\CertificadoBusqueda.aspx" />
+    <Content Include="Forms\PPMBusqueda.aspx" />
+    <Content Include="Forms\PlanillaPautasMensuales.aspx" />
+    <Content Include="Forms\EstimadoConsultaVersion.aspx" />
+    <Content Include="Forms\Certificado.aspx" />
+    <Content Include="Forms\Costos.aspx" />
+    <Content Include="Forms\EspacioContenidos.aspx" />
+    <Content Include="Forms\EstimadoAnulacionReemplazo.aspx" />
+    <Content Include="Forms\EstimadoBusqueda.aspx" />
+    <Content Include="Forms\EstimadoCierre.aspx" />
+    <Content Include="Forms\Frecuencia.aspx" />
+    <Content Include="Forms\IdentificadoresAtencion.aspx" />
+    <Content Include="Forms\Monedas.aspx" />
+    <Content Include="Forms\Ordenado.aspx" />
+    <Content Include="Forms\OrdenadoCierre.aspx" />
+    <Content Include="Forms\PiezasArte.aspx" />
+    <Content Include="Images\Accendo.jpg" />
+    <Content Include="Images\Accendo.png" />
+    <Content Include="Images\Clients\sprayette.jpg" />
+    <Content Include="Images\Crud\16_cancel.png" />
+    <Content Include="Images\Crud\16_L_refresh.gif" />
+    <Content Include="Images\Crud\16_save.gif" />
+    <Content Include="Images\Crud\18_addView.gif" />
+    <Content Include="Images\Crud\ActivateQuote_16.png" />
+    <Content Include="Images\Crud\ActivateQuote_32.png" />
+    <Content Include="Images\Crud\AddActivity_16.png" />
+    <Content Include="Images\Crud\AddActivity_32.png" />
+    <Content Include="Images\Crud\AddAttachment_16.png" />
+    <Content Include="Images\Crud\AddAttachment_32.png" />
+    <Content Include="Images\Crud\AddExistingStandard_16.png" />
+    <Content Include="Images\Crud\AddExistingStandard_32.png" />
+    <Content Include="Images\Crud\cmd_add.png" />
+    <Content Include="Images\Crud\Delete_16.png" />
+    <Content Include="Images\Crud\Delete_32.png" />
+    <Content Include="Images\Crud\EditProperties_16.png" />
+    <Content Include="Images\Crud\EditProperties_32.png" />
+    <Content Include="Images\Crud\Entity32_4212.png" />
+    <Content Include="Images\Crud\ExportToExcel32.png" />
+    <Content Include="Images\Crud\FormPreview_32.png" />
+    <Content Include="Images\Crud\ico_16_delete.gif" />
+    <Content Include="Images\Crud\NewActivity_16.png" />
+    <Content Include="Images\Crud\NewActivity_32.png" />
+    <Content Include="Images\Crud\NewRecord32.png" />
+    <Content Include="Images\Crud\NewRecord_16.png" />
+    <Content Include="Images\Crud\Save_16.png" />
+    <Content Include="Images\Crud\Save_32.png" />
+    <Content Include="Images\favorites.png" />
+    <Content Include="Images\file.gif" />
+    <Content Include="Images\folder.gif" />
+    <Content Include="Images\Go.gif" />
+    <Content Include="Images\help.png" />
+    <Content Include="Images\Icons\16_activate.gif" />
+    <Content Include="Images\Icons\16_alert.gif" />
+    <Content Include="Images\Icons\16_approveemailofqueue.png" />
+    <Content Include="Images\Icons\16_back.gif" />
+    <Content Include="Images\Icons\16_cancel.png" />
+    <Content Include="Images\Icons\16_cancelsystemjob.gif" />
+    <Content Include="Images\Icons\16_close.gif" />
+    <Content Include="Images\Icons\16_closeObj.gif" />
+    <Content Include="Images\Icons\16_convert.gif" />
+    <Content Include="Images\Icons\16_convertactivity.gif" />
+    <Content Include="Images\Icons\16_convertresponse.gif" />
+    <Content Include="Images\Icons\16_converttocase.gif" />
+    <Content Include="Images\Icons\16_converttolead.gif" />
+    <Content Include="Images\Icons\16_converttooppo.gif" />
+    <Content Include="Images\Icons\16_deactivate.gif" />
+    <Content Include="Images\Icons\16_error.gif" />
+    <Content Include="Images\Icons\16_excel.gif" />
+    <Content Include="Images\Icons\16_export.gif" />
+    <Content Include="Images\Icons\16_filters.png" />
+    <Content Include="Images\Icons\16_find.gif" />
+    <Content Include="Images\Icons\16_forward.gif" />
+    <Content Include="Images\Icons\16_help.gif" />
+    <Content Include="Images\Icons\16_info.gif" />
+    <Content Include="Images\Icons\16_L_check.gif" />
+    <Content Include="Images\Icons\16_L_help.gif" />
+    <Content Include="Images\Icons\16_L_refresh.gif" />
+    <Content Include="Images\Icons\16_L_remove.gif" />
+    <Content Include="Images\Icons\16_L_save.gif" />
+    <Content Include="Images\Icons\16_L_saveOpen.gif" />
+    <Content Include="Images\Icons\16_Outlook.png" />
+    <Content Include="Images\Icons\16_pausesystemjob.gif" />
+    <Content Include="Images\Icons\16_postponesystemjob.gif" />
+    <Content Include="Images\Icons\16_print.gif" />
+    <Content Include="Images\Icons\16_progress.gif" />
+    <Content Include="Images\Icons\16_propagate.gif" />
+    <Content Include="Images\Icons\16_publish.gif" />
+    <Content Include="Images\Icons\16_rejectemailofqueue.png" />
+    <Content Include="Images\Icons\16_reports.gif" />
+    <Content Include="Images\Icons\16_resumesystemjob.gif" />
+    <Content Include="Images\Icons\16_runworkflow.gif" />
+    <Content Include="Images\Icons\16_save.gif" />
+    <Content Include="Images\Icons\16_saveClose.gif" />
+    <Content Include="Images\Icons\16_saveCompleted.gif" />
+    <Content Include="Images\Icons\16_schedule.gif" />
+    <Content Include="Images\Icons\16_send.gif" />
+    <Content Include="Images\Icons\16_succeeded.png" />
+    <Content Include="Images\Icons\16_unpublish.gif" />
+    <Content Include="Images\Icons\17_help.png" />
+    <Content Include="Images\Icons\18_addResourceGroups.gif" />
+    <Content Include="Images\Icons\18_addResources.gif" />
+    <Content Include="Images\Icons\18_addSelectionRule.gif" />
+    <Content Include="Images\Icons\18_addTeam.gif" />
+    <Content Include="Images\Icons\18_addView.gif" />
+    <Content Include="Images\Icons\18_editForm.gif" />
+    <Content Include="Images\Icons\entity16_1036.png" />
+    <Content Include="Images\Masthead.jpg" />
+    <Content Include="Images\MastheadBig.jpg" />
+    <Content Include="Images\MastheadMedium.jpg" />
+    <Content Include="Images\next.png" />
+    <Content Include="Images\ok.jpg" />
+    <Content Include="Images\prev.png" />
+    <Content Include="Images\reply-group.png" />
+    <Content Include="Images\reply-sender.png" />
+    <Content Include="Images\reply.png" />
+    <Content Include="Images\send.png" />
+    <Content Include="Images\separador.png" />
+    <Content Include="Images\uponeLevel.gif" />
+    <Content Include="Login.aspx" />
+    <Content Include="Settings.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Styles\Accendo.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\csOP_GRAFICA.cs" />
+    <Compile Include="Classes\csOP_Helper.cs" />
+    <Compile Include="Classes\csOP_PNT_PRODUCTO.cs" />
+    <Compile Include="Classes\csOP_CALENDARIO_NUMERICO.cs" />
+    <Compile Include="Classes\csOP_CALENDARIO_DESCRIPTIVO.cs" />
+    <Compile Include="Classes\csOP_PNT_SALIDA.cs" />
+    <Compile Include="Classes\WebForm1_aspx_cs_FileList.cs" />
+    <Compile Include="Classes\WebForm1_aspx_cs_PathHelper.cs" />
+    <Compile Include="Forms\AbmGenerico.aspx.cs">
+      <DependentUpon>AbmGenerico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\AbmGenerico.aspx.designer.cs">
+      <DependentUpon>AbmGenerico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accendo.Master.cs">
+      <DependentUpon>Accendo.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accendo.Master.designer.cs">
+      <DependentUpon>Accendo.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucABM.ascx.cs">
+      <DependentUpon>ucABM.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ucABM.ascx.designer.cs">
+      <DependentUpon>ucABM.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucComboBox.ascx.cs">
+      <DependentUpon>ucComboBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ucComboBox.ascx.designer.cs">
+      <DependentUpon>ucComboBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\FormsHelper.cs" />
+    <Compile Include="Forms\Avisos.aspx.cs">
+      <DependentUpon>Avisos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Avisos.aspx.designer.cs">
+      <DependentUpon>Avisos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CertificadoBusqueda.aspx.cs">
+      <DependentUpon>CertificadoBusqueda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\CertificadoBusqueda.aspx.designer.cs">
+      <DependentUpon>CertificadoBusqueda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PPMBusqueda.aspx.cs">
+      <DependentUpon>PPMBusqueda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\PPMBusqueda.aspx.designer.cs">
+      <DependentUpon>PPMBusqueda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PlanillaPautasMensuales.aspx.cs">
+      <DependentUpon>PlanillaPautasMensuales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\PlanillaPautasMensuales.aspx.designer.cs">
+      <DependentUpon>PlanillaPautasMensuales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EstimadoConsultaVersion.aspx.cs">
+      <DependentUpon>EstimadoConsultaVersion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\EstimadoConsultaVersion.aspx.designer.cs">
+      <DependentUpon>EstimadoConsultaVersion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Certificado.aspx.cs">
+      <DependentUpon>Certificado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Certificado.aspx.designer.cs">
+      <DependentUpon>Certificado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Costos.aspx.cs">
+      <DependentUpon>Costos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Costos.aspx.designer.cs">
+      <DependentUpon>Costos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EspacioContenidos.aspx.cs">
+      <DependentUpon>EspacioContenidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\EspacioContenidos.aspx.designer.cs">
+      <DependentUpon>EspacioContenidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EstimadoAnulacionReemplazo.aspx.cs">
+      <DependentUpon>EstimadoAnulacionReemplazo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\EstimadoAnulacionReemplazo.aspx.designer.cs">
+      <DependentUpon>EstimadoAnulacionReemplazo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EstimadoBusqueda.aspx.cs">
+      <DependentUpon>EstimadoBusqueda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\EstimadoBusqueda.aspx.designer.cs">
+      <DependentUpon>EstimadoBusqueda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EstimadoCierre.aspx.cs">
+      <DependentUpon>EstimadoCierre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\EstimadoCierre.aspx.designer.cs">
+      <DependentUpon>EstimadoCierre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frecuencia.aspx.cs">
+      <DependentUpon>Frecuencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Frecuencia.aspx.designer.cs">
+      <DependentUpon>Frecuencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IdentificadoresAtencion.aspx.cs">
+      <DependentUpon>IdentificadoresAtencion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\IdentificadoresAtencion.aspx.designer.cs">
+      <DependentUpon>IdentificadoresAtencion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Monedas.aspx.cs">
+      <DependentUpon>Monedas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Monedas.aspx.designer.cs">
+      <DependentUpon>Monedas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ordenado.aspx.cs">
+      <DependentUpon>Ordenado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Ordenado.aspx.designer.cs">
+      <DependentUpon>Ordenado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OrdenadoCierre.aspx.cs">
+      <DependentUpon>OrdenadoCierre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\OrdenadoCierre.aspx.designer.cs">
+      <DependentUpon>OrdenadoCierre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PiezasArte.aspx.cs">
+      <DependentUpon>PiezasArte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\PiezasArte.aspx.designer.cs">
+      <DependentUpon>PiezasArte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PautasPublicidad.Master.cs">
+      <DependentUpon>PautasPublicidad.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PautasPublicidad.Master.designer.cs">
+      <DependentUpon>PautasPublicidad.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ProcesoHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PautasPublicidad.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PautasPublicidad.Business\PautasPublicidad.Business.csproj">
+      <Project>{03215DDE-D556-45F9-869E-E45C2F6B5D08}</Project>
+      <Name>PautasPublicidad.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PautasPublicidad.DAO\PautasPublicidad.DAO.csproj">
+      <Project>{6AA5CE20-3573-4A0B-800F-F6421EA92D92}</Project>
+      <Name>PautasPublicidad.DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PautasPublicidad.DTO\PautasPublicidad.DTO.csproj">
+      <Project>{AFE94308-9306-4F0D-AFDA-27D3628B23DC}</Project>
+      <Name>PautasPublicidad.DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Accendo.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WebDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Themes\Theme1\" />
+    <Folder Include="Excel\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51853</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

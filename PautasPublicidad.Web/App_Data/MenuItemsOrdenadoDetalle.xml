@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MenuItems>
+
+  <RootItem Name="btnInsert" Text="Insertar Líneas" ImageUrl="~/Images/Icons/18_addView.gif"  />
+
+  <RootItem Name="btnEdit" Text="Modificar Línea" ImageUrl="~/Images/Icons/EditProperties_16.png"  />
+  
+  <RootItem Name="btnCopy" Text="Copiar Períodos" ImageUrl="~/Images/Icons/18_editForm.gif"  />
+
+  <RootItem Name="btnReplace" Text="Reemplazar Avisos" ImageUrl="~/Images/Icons/16_runworkflow.gif">
+    <SubItem Name="btnSelect0" Text="Seleccionar Visibles" />
+  </RootItem>
+
+  <RootItem Name="btnDelete" Text="Eliminar Líneas" ImageUrl="~/Images/Icons/16_L_remove.gif">
+    <SubItem Name="btnSelectAll" Text="Seleccionar Visibles" />
+
+  </RootItem>
+  
+</MenuItems>

@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PautasPublicidad.DTO.AnunInternosDTO">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\AnunInternosDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.AvisosDTO">
+    <Position X="13.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiABABAAAAAAgAAAAAAAQAAAAFAAAAAAAAAAACARA=</HashCode>
+      <FileName>DTO\Parametrizacion\AvisosDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.AvisosIdAtenDTO">
+    <Position X="9" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>DTO\Parametrizacion\AvisosIdAtenDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.CostosDTO">
+    <Position X="2.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAiAAAAAACAAAgAAAAAAAAAAAAgABAAAAAAAAAAEAE=</HashCode>
+      <FileName>DTO\Parametrizacion\CostosDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.CostosFrecuenciaDTO">
+    <Position X="13.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAAAAAAGggAAAAAAAAAAAAAAAAAAAIAAAAAgA=</HashCode>
+      <FileName>DTO\Parametrizacion\CostosFrecuenciaDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.CostosFrecuenciaVersionDTO">
+    <Position X="9" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAiAAAAAAAAAGggAAAAAAAAAAAAAAAQAAAIAAAAAgA=</HashCode>
+      <FileName>DTO\Parametrizacion\CostosFrecuenciaVersionDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.CostosProveedorDTO">
+    <Position X="4.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAQEAAAAAihgAAAQAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\CostosProveedorDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.CostosProveedorVersionDTO">
+    <Position X="15.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAiAAQEAAAAAihgAAAQAAAAAAAAgAAAAEAAAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\CostosProveedorVersionDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.CostoVersionDTO">
+    <Position X="11.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAiAAAAAACAAAgAAAAAAAAAAAAgABCAAAAAAAAAEAE=</HashCode>
+      <FileName>DTO\Parametrizacion\CostoVersionDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.EspacioContDTO">
+    <Position X="4.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAIAAgAAAggAAQEAAAAAACAAAAAAAAAAAE=</HashCode>
+      <FileName>DTO\Parametrizacion\EspacioContDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.FormAvisoDTO">
+    <Position X="15.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\FormAvisoDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.FrecuenciaDetDTO">
+    <Position X="11.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAgAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>DTO\Parametrizacion\FrecuenciaDetDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.FrecuenciaDTO">
+    <Position X="6.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>DTO\Parametrizacion\FrecuenciaDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.GrupoMediosPubDTO">
+    <Position X="2.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\GrupoMediosPubDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.IdentAtencionDTO">
+    <Position X="13.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAQBAAAAAAAAAIAAAAAAQAAAAAAAAAAAAAAgAAAAg=</HashCode>
+      <FileName>DTO\Parametrizacion\IdentAtencionDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.IntervaloDTO">
+    <Position X="6.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAQAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\IntervaloDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.MediosPubDTO">
+    <Position X="2.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAIAAAgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\MediosPubDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.MonedasDTO">
+    <Position X="13.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\MonedasDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.PiezasArteDTO">
+    <Position X="9" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiABAAAAAAAAAAACAgAAQAAAABAQAAAAAIAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\PiezasArteDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.PiezasArteSKUDTO">
+    <Position X="4.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAAAAAAAAAAAAAAAAACCAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\PiezasArteSKUDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.ProveedorDTO">
+    <Position X="15.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\ProveedorDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.SetUpDTO">
+    <Position X="9" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAQAAAgAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\SetUpDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.SKUDTO">
+    <Position X="4.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAgAAACAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\SKUDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.sysdiagramsDTO">
+    <Position X="15.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAAAAAAAAAAAAAAAQAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\sysdiagramsDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.TecnoSoporteDTO">
+    <Position X="11.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\TecnoSoporteDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.TipoCambioDTO">
+    <Position X="6.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAEAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\TipoCambioDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.TipoEspacioDTO">
+    <Position X="18" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAIAAAAQAAEAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\TipoEspacioDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.TipoMediosPubDTO">
+    <Position X="11.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAABAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\TipoMediosPubDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.TipoPiezaDTO">
+    <Position X="6.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\TipoPiezaDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.UsuariosDTO">
+    <Position X="18" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\UsuariosDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.DTOHelper">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAABAAAAABAAAAEAAAA=</HashCode>
+      <FileName>DTOHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.SortFieldAttribute">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>SortFieldAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.TablaBase">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TablaBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DTO.EntornoDTO">
+    <Position X="18" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\Parametrizacion\EntornoDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

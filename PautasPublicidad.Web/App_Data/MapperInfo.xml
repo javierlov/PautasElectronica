@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Mappings>
+  <MapInfo EntityName="GrupoMediosPub" TextField="Name" ValueField="IdentifGrupo" AbmUrl="~/Forms/AbmGenerico.aspx?EntityName=GrupoMediosPub" />
+  <MapInfo EntityName="TecnoSoporte" TextField="Name" ValueField="IdentifTecno" AbmUrl="~/Forms/AbmGenerico.aspx?EntityName=TecnoSoporte" />
+  <MapInfo EntityName="TipoMediosPub" TextField="Name" ValueField="IdentifTipo" AbmUrl="~/Forms/AbmGenerico.aspx?EntityName=TipoMediosPub" />
+  <MapInfo EntityName="MediosPub" TextField="Name" ValueField="IdentifMedio" AbmUrl="~/Forms/AbmGenerico.aspx?EntityName=MediosPub" />
+  
+  <!-- // -->
+  <MapInfo EntityName="TipoEspacio" TextField="Name" ValueField="IdentifTipoEsp" AbmUrl="~/Forms/AbmGenerico.aspx?EntityName=TipoEspacio" />
+  <MapInfo EntityName="Frecuencia" TextField="Name" ValueField="IdentifFrecuencia" AbmUrl="~/Forms/Frecuencia.aspx" />
+  <MapInfo EntityName="Intervalo" TextField="Name" ValueField="IdentifIntervalo" AbmUrl="~/Forms/AbmGenerico.aspx?EntityName=Intervalo" />
+
+  <MapInfo EntityName="AnunInternos" TextField="Name" ValueField="IdentifAnun" AbmUrl="~/Forms/AbmGenerico.aspx?EntityName=AnunInternos" />
+  <MapInfo EntityName="TipoPieza" TextField="Name" ValueField="IdentifTipoPieza" AbmUrl="~/Forms/AbmGenerico.aspx?EntityName=TipoPieza" />
+
+  <MapInfo EntityName="SKU" TextField="Name" ValueField="IdentifSKU" AbmUrl="~/Forms/AbmGenerico.aspx?EntityName=SKU" />
+
+  <MapInfo EntityName="EspacioCont" TextField="Name" ValueField="IdentifEspacio" AbmUrl="~/Forms/EspacioContenidos.aspx" />
+  <MapInfo EntityName="FormAviso" TextField="Name" ValueField="IdentifFormAviso" AbmUrl="~/Forms/AbmGenerico.aspx?EntityName=FormAviso" />
+  <MapInfo EntityName="IdentAtencion" TextField="Name" ValueField="IdentifIdentAte" AbmUrl="~/Forms/AbmGenerico.aspx?EntityName=IdentAtencion" />
+  <MapInfo EntityName="PiezasArte" TextField="Name" ValueField="IdentifPieza" AbmUrl="~/Forms/PiezasArte.aspx" />
+
+  <MapInfo EntityName="Proveedor" TextField="Name" ValueField="IdentifProv" AbmUrl="~/Forms/AbmGenerico.aspx?EntityName=Proveedor" />
+  
+  <MapInfo EntityName="Monedas" TextField="Name" ValueField="IdentifMon" AbmUrl="~/Forms/Monedas.aspx" />
+
+  <MapInfo EntityName="Avisos" TextField="Name" ValueField="IdentifAviso" AbmUrl="~/Forms/Avisos.aspx" />
+
+  <MapInfo EntityName="Origen" TextField="Name" ValueField="IdentifOrigen" AbmUrl="~/Forms/AbmGenerico.aspx?EntityName=Origen" />
+
+  <MapInfo EntityName="Entorno" TextField="Name" ValueField="IdentifEntorno" AbmUrl="~/Forms/AbmGenerico.aspx?EntityName=Entorno" />
+  
+  <MapInfo EntityName="Empresa" TextField="Name" ValueField="IdentifEmpresa" AbmUrl="~/Forms/AbmGenerico.aspx?EntityName=Empresa" />  
+
+</Mappings>

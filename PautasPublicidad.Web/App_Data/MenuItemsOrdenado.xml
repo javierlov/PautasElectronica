@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<MenuItems>
+  <!--
+  <RootItem Name="btnAdd" Text="Agregar" ImageUrl="~/Images/CRUD/NewRecord32.png" BeginGroup="True" />
+  <RootItem Name="btnEdit" Text="Editar" ImageUrl="~/Images/CRUD/EditProperties_32.png"  />
+  <RootItem Name="btnDelete" Text="Eliminar" ImageUrl="~/Images/CRUD/Delete_32.png"  />
+  <RootItem Name="btnCommit" Text="Confirmar" ImageUrl="~/Images/CRUD/Entity32_4212.png"  />
+  <RootItem Name="btnQuery" Text="Consultar" ImageUrl="~/Images/CRUD/FormPreview_32.png"  />
+  
+  <RootItem Name="btnCopy" Text="Copiar Pedidos" ImageUrl="~/Images/CRUD/ActivateQuote_32.png"  />
+  <RootItem Name="btnReplace" Text="Reemplazar Avisos" ImageUrl="~/Images/CRUD/CloseActivity_32.png"  />
+  -->
+  <RootItem Name="btnQuerySKU" Text="Consultar por SKU" ImageUrl="~/Images/CRUD/LookupAddress_32.png"  />
+  <RootItem Name="btnOP" Text="Orden de Publicidad" ImageUrl="~/Images/CRUD/RunReport32.png"  />
+  <RootItem Name="btnCost" Text="Calcular Costo" ImageUrl="~/Images/CRUD/Recalculate_32.png"  />
+  
+  <RootItem Name="btnExport" Text="Exportar" ImageUrl="~/Images/CRUD/ExportToExcel32.png" >
+    <SubItem Name="btnExportXls" Text="Exportar a Excel" ImageUrl="~/Images/CRUD/ExportToExcel32.png" />
+    <SubItem Name="btnExportPdf" Text="Exportar a Pdf" ImageUrl="~/Images/CRUD/ExportToExcel32.png"  />
+  </RootItem>
+</MenuItems>

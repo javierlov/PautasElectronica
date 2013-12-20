@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="PautasPublicidad.Web.FormsHelper" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="PautasPublicidad.Web.FormsHelper.eAccionABM" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Classes\FormsHelper.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="PautasPublicidad.Web.FormsHelper.eGetOrSet" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Classes\FormsHelper.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Delegate Name="PautasPublicidad.Web.FormsHelper.RefreshDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Classes\FormsHelper.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AhgABAAgAYAAQAAAAwQAECYAAQAAEAAAAACAEgUAIAA=</HashCode>
+      <FileName>Classes\FormsHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Web.AbmGenerico" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAQAAAAAgAIAAAACACEAAAAAEAAAAAAAAAAIAAIQ=</HashCode>
+      <FileName>Forms\AbmGenerico.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Web.Accendo" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAEgACAABAICBAAAAIQAAAEAAACAEAAIAAAA=</HashCode>
+      <FileName>Accendo.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Web.Default" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAgAAAAAAAAAA4BAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Default.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Web.Login" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAIAAABAAAAAAIAAACEABAgAADQIAAgQ=</HashCode>
+      <FileName>Login.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Web.Controls.ucABM" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="PautasPublicidad.Web.Controls.ucABM.ReadDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\ucABM.ascx.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="PautasPublicidad.Web.Controls.ucABM.DeleteDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\ucABM.ascx.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="PautasPublicidad.Web.Controls.ucABM.CreateDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\ucABM.ascx.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="PautasPublicidad.Web.Controls.ucABM.UpdateDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\ucABM.ascx.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="PautasPublicidad.Web.Controls.ucABM.ABMEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\ucABM.ascx.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgckAAgQAAUAAAESAAoAAUAgBgEAgnEBAELAJgIFBUY=</HashCode>
+      <FileName>Controls\ucABM.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Web.Controls.ABMEventArgs">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\ucABM.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Web.Controls.ABMControl" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAIACEAAAAAAEAAAAACAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\ucABM.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Web.Controls.Item" Collapsed="true">
+    <Position X="7.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Controls\ucABM.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Web.Controls.ucComboBox" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="PautasPublicidad.Web.Controls.ucComboBox.ComboBoxEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\ucComboBox.ascx.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="PautasPublicidad.Web.Controls.ucComboBox.ReadAll" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\ucComboBox.ascx.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAAAAACAAARSAAEAAAAEEAAAAAAiAABAQBAAAIAAAA=</HashCode>
+      <FileName>Controls\ucComboBox.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Web.Forms.Avisos" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>TAAAAQ4YTAFhgAEABgqICEAJBCmGsBBBAhIAFCsARZY=</HashCode>
+      <FileName>Forms\Avisos.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Web.Forms.Costos" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>aQPAkQ0YTHExJWMBDloI6EABhNuc8FFVUDIgnA4Eh54=</HashCode>
+      <FileName>Forms\Costos.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Web.Forms.EspacioContenidos" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAAAQwaDAEpACNABgoIKFAABAGEghERAwIgBAMADZY=</HashCode>
+      <FileName>Forms\EspacioContenidos.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Web.Forms.Frecuencia" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAARjIBAEhAQEBAgiICEMQhACEgBBBABIQBAMQTZY=</HashCode>
+      <FileName>Forms\Frecuencia.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Web.Forms.IdentificadoresAtencion" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ChAABQoIDAExAAEAAgoACFAABAGEgBABCAIAAAMADZY=</HashCode>
+      <FileName>Forms\IdentificadoresAtencion.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.Web.Forms.PiezasArte" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAAAQxYiCEhAAEARgoMCUCBBMGMkBBBAhIABCsAVZY=</HashCode>
+      <FileName>Forms\PiezasArte.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.UI.Page" Collapsed="true">
+    <Position X="3.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

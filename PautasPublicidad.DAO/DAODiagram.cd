@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PautasPublicidad.DAO.DAOBase&lt;T&gt;" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAAEAAAAAUAEAAAAgAAEAAEAAAAAAAQAAAEA=</HashCode>
+      <FileName>DAOBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.AnunInternosDAO" Collapsed="true">
+    <Position X="5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\AnunInternosDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.AvisosDAO">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\AvisosDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.AvisosIdAtenDAO">
+    <Position X="5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\AvisosIdAtenDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.CostosDAO">
+    <Position X="7.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\CostosDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.CostosFrecuenciaDAO">
+    <Position X="2.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\CostosFrecuenciaDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.CostosFrecuenciaVersionDAO">
+    <Position X="7.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\CostosFrecuenciaVersionDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.CostosProveedorDAO">
+    <Position X="2.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\CostosProveedorDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.CostosProveedorVersionDAO">
+    <Position X="9.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\CostosProveedorVersionDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.CostoVersionDAO">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\CostoVersionDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.EspacioContDAO">
+    <Position X="5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\EspacioContDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.FormAvisoDAO">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\FormAvisoDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.FrecuenciaDAO">
+    <Position X="5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\FrecuenciaDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.FrecuenciaDetDAO">
+    <Position X="0.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\FrecuenciaDetDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.GrupoMediosPubDAO">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\GrupoMediosPubDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.IdentAtencionDAO">
+    <Position X="5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\IdentAtencionDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.IntervaloDAO">
+    <Position X="2.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\IntervaloDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.MediosPubDAO">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\MediosPubDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.MonedasDAO">
+    <Position X="7.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\MonedasDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.PiezasArteDAO">
+    <Position X="9.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\PiezasArteDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.PiezasArteSKUDAO">
+    <Position X="9.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\PiezasArteSKUDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.ProveedorDAO">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\ProveedorDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.SetUpDAO">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\SetUpDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.SKUDAO">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\SKUDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.sysdiagramsDAO">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\sysdiagramsDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.TecnoSoporteDAO">
+    <Position X="7.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\TecnoSoporteDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.TipoCambioDAO">
+    <Position X="7.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\TipoCambioDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.TipoEspacioDAO">
+    <Position X="0.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\TipoEspacioDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.TipoMediosPubDAO">
+    <Position X="9.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\TipoMediosPubDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.TipoPiezaDAO">
+    <Position X="9.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\TipoPiezaDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.UsuariosDAO">
+    <Position X="2.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\UsuariosDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.DAOFactory">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAOFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.DAOHelper">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gDAQAAAAwAGAgBAAQAEABoAAIQAIGAABYACAAAQAAAg=</HashCode>
+      <FileName>DAOHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.OrigenDAO">
+    <Position X="0.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Parametrizacion\OrigenDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.EstimadoCabDAO">
+    <Position X="5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Proceso\EstimadoCabDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.EstimadoCabVersionDAO">
+    <Position X="9.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Proceso\EstimadoCabVersionDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.EstimadoDetDAO">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Proceso\EstimadoDetDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.EstimadoDetVersionDAO">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Proceso\EstimadoDetVersionDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.EstimadoSKUDAO">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Proceso\EstimadoSKUDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.OrdenadoCabDAO">
+    <Position X="2.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Proceso\OrdenadoCabDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.OrdenadoDetDAO">
+    <Position X="7.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Proceso\OrdenadoDetDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.OrdenadoSKUDAO">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Proceso\OrdenadoSKUDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PautasPublicidad.DAO.EstimadoSKUVersionDAO">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\Proceso\EstimadoSKUVersionDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
